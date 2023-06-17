@@ -71,8 +71,8 @@ class CourseSelect:
     
 if __name__ == '__main__':
     # 帳號 密碼 課碼
-    account = "B11132009"
-    password = "Raymin24244073@@"
+    account = "帳號"
+    password = "密碼"
     course = ["FE1471702"]
     app = CourseSelect(account, password, course,"https://stuinfosys.ntust.edu.tw/NTUSTSSOServ/SSO/Login/CourseSelection?ReturnUrl=CourseSelection")
     app.run(100)
